@@ -21,7 +21,7 @@ key =os.environ["GD_KEY"]
 
 
 def get_weather():
-  url = "https://restapi.amap.com/v3/weather/weatherInfo?key="+key+"city=" + city
+  url = "https://restapi.amap.com/v3/weather/weatherInfo?key="+key+"&city=" + city
   res = requests.get(url).json()
   weather = res['lives'][0]
   return weather['weather'], math.floor(weather['temperature'])
