@@ -32,3 +32,4 @@ jobs:
       CITY: ${{ secrets.CITY }}
       BIRTHDAY_D: ${{ secrets.BIRTHDAY_D }}
       GD_KEY: ${{secrets.GD_KEY}}
+      BIRTHDAY_DD: ${{ secrets.BIRTHDAY_DD }}
