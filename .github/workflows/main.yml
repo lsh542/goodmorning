@@ -33,3 +33,5 @@ jobs:
       BIRTHDAY_D: ${{ secrets.BIRTHDAY_D }}
       GD_KEY: ${{secrets.GD_KEY}}
       BIRTHDAY_DD: ${{ secrets.BIRTHDAY_DD }}
+      BIRTHDAY_B: ${{ secrets.BIRTHDAY_B }}
+      TEMPLATE1_ID: ${{ secrets.TEMPLATE1_ID }}
