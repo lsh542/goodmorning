@@ -11,6 +11,7 @@ start_date = os.environ['START_DATE']
 city = os.environ['CITY']
 birthday = os.environ['BIRTHDAY']
 birthday_d = os.environ['BIRTHDAY_D']
+birthday_dd = os.environ['BIRTHDAY_DD']
 
 app_id = os.environ["APP_ID"]
 app_secret = os.environ["APP_SECRET"]
